@@ -1,0 +1,163 @@
+body {
+	background: #DAF7F6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+    color: #3B3B3B;
+    
+}
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	padding: 40px 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.card {
+	margin: 25px 0;
+	overflow: auto;
+}
+
+.image {
+	float: left;
+	width: 500px;
+	height: 550px;
+}
+
+.recipe {
+	float: left;
+	padding: 20px;
+	width: 500px;
+	height: 550px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#cookies .image {
+	background-image: url("../img/gluten-free-sugar-cookies.jpg");
+	background-size: cover;
+}
+
+#pesto .image {
+	background-image: url("../img/nut-free-pesto.jpg");
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url("../img/watermelon-salad.jpg");
+	background-size: cover;
+}
+h2{
+    color: #F16059;
+}
+
+.time{
+    margin: 20px;
+    display: flex;
+    border: solid #3B3B3B 1px;
+    justify-content: space-around;
+    font-family: sans-serif;
+    padding-right: 10px;
+    padding-left: 6px;
+ 
+}
+
+
+.prep{
+    display: flex;
+    border-right: solid #3B3B3B 1px;
+    padding-right: 10px;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.prep img{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+.cook{
+    display: flex;
+    border-right: solid #3B3B3B 1px;
+    padding-right: 10px;
+    align-items: center;
+}
+.cook img{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+}
+
+.total img{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    padding: 20px;
+}
+
+.ingredients h3{
+    width: 44%;
+    text-align: left;
+    color: #F16059;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-left: 13%;
+    }
+    
+    .directions h3{
+    width: 40%;
+    text-align: right;
+    color:#F16059;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-left: 27px;
+    }
+    
+.ingredients{
+    width: 800px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.directions{
+    width: 800px;
+}
